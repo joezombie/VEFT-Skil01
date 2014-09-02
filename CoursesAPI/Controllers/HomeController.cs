@@ -11,6 +11,7 @@ namespace CoursesAPI.Controllers
 		public ActionResult Index()
 		{
 			ViewBag.Title = "Home Page";
+            // This is a comment
 
 			return View();
 		}
