@@ -54,8 +54,12 @@
     <Compile Include="DataAccess\Repository.cs" />
     <Compile Include="DataAccess\UnitOfWork.cs" />
     <Compile Include="Models\Entities\Course.cs" />
+    <Compile Include="Models\Entities\CourseStudent.cs" />
+    <Compile Include="Models\Entities\CourseWaitingList.cs" />
     <Compile Include="Models\Entities\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CoursesServiceProvider.cs" />
+    <Compile Include="Services\Extensions\CoursesExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoursesAPI.Models\CoursesAPI.Models.csproj">

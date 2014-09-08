@@ -7,6 +7,8 @@ namespace CoursesAPI.Services.DataAccess
 	{
 		public DbSet<Student> Students { get; set; }
 		public DbSet<Course>  Courses  { get; set; }
+        public DbSet<CourseStudent> CourseStudents { get; set; }
+        public DbSet<CourseWaitingList> CourseWaitingLists { get; set; }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{
